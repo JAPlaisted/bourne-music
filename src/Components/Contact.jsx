@@ -95,7 +95,7 @@ class Contact extends Component {
       <div className="card shadow-sm border-0 px-3 rounded-2 mb-3 py-4 mx-auto mt-5">
         <div className="card-header bg-transparent border-0 text-center text-uppercase"><h3>{this.props.title}</h3></div>
         <div className="card-body">
-          <form action="/" onSubmit={(e) => this.handleSubmit(e)} encType="multipart/form-data" autoComplete="off">
+          <form action="/" onSubmit={(e) => this.handleSubmit(e)} href="mailto: jonathan.plaisted@outlook.com" encType="multipart/form-data" autoComplete="off">
             <div className="form-group">
               <label className="mb-0"><p>Your name</p><span className="text-danger"></span></label>
               <input name="name" type="text" className="form-control" placeholder="Name" value={this.state.name} onChange={this.handleChange} onBlur={this.handleBlur} />
@@ -128,7 +128,7 @@ class Contact extends Component {
                 : ''
               }
             </div>
-              <p className="text-center mb-0"><input href="mailto: jonathan.plaisted@outlook.com" type="submit" className="btn  btn-lg w-100 text-uppercase" value="Submit Now" /></p>
+              <p className="text-center mb-0"><input type="submit" className="btn  btn-lg w-100 text-uppercase" value="Submit Now" /></p>
           </form>
       
         </div>
