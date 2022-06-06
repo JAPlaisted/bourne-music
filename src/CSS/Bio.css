@@ -1,0 +1,40 @@
+.bio{
+    background-image: url('../Asssets/img-bkgrnd.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bio > .container > p { 
+    font-size: 1.25rem; 
+    text-align: left;
+  }
+
+  
+  Link > p { 
+    font-size: 12rem; 
+  }
+
+@media screen and (min-width: 728px) {
+    .bio > .container > p { 
+        font-size: 2rem; 
+        text-align: center;
+      }
+  }
+
+  @media screen and (min-width: 2400px) { 
+    .bio > .container > p { 
+        font-size: 3rem; 
+      }
+  }
+
+  html {
+    height: 100vh;
+    overflow: hidden;
+    background-color: 
+    #091013;
+  }

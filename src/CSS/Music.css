@@ -1,0 +1,16 @@
+#music {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1e1e1ece;
+}
+
+@media screen and (min-width: 728px) {
+    #music {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 8rem;
+    }
+  }
+

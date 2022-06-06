@@ -1,0 +1,16 @@
+.home-content { 
+    padding: 10rem; 
+    flex-direction: row;
+    height: 100vh;
+  }
+
+@media screen and (min-width: 1600px) {
+    .home-content { 
+      padding: 30rem; 
+      flex-direction: row;
+    }
+  }
+
+  h1 {
+    font-family: 'Rubik Wet Paint', cursive;
+  }

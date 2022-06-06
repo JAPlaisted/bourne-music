@@ -1,0 +1,50 @@
+.merch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1e1e1ece;
+
+ }
+
+
+ @media screen and (min-width: 2400px) {
+    .merch > .text-container > h2 {
+        margin-right: 20rem;
+        font-size: 10rem;
+    }
+  }
+
+.merch > .text-container {
+    padding: 5rem;
+    color: var(--color-headings);
+}
+
+@media screen and (min-width: 728px) { 
+    .merch > .text-container {
+    padding: 25rem;
+}
+ }
+
+@media screen and (min-width: 728px) {
+    .merch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 8rem;
+    }
+  }
+
+  .media-container {
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+@media screen and (min-width: 728px) { .media-container > img {
+    max-height: 500px;
+} }
+@media screen and (min-width: 1600px) { .media-container > img {
+    max-height: 800px;
+} }

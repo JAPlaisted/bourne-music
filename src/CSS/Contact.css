@@ -1,0 +1,21 @@
+.card {
+    width: 500px;
+    max-width: 100%;
+    background-color: 
+    #171717;
+  }
+
+  .btn {
+      background-color: var(--color-headings);
+      color: white;
+  }
+
+  .bar {
+    background-color: 
+    #171717;
+  }
+
+  .alert-success {
+    background-color: var(--color-headings);
+    color: white;
+  }

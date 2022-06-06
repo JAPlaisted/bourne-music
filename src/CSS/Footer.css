@@ -1,0 +1,5 @@
+
+  .block {
+    --padding-vertical: 5rem;
+    padding: var(--padding-vertical) 2rem;
+  }

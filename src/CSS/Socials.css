@@ -1,0 +1,10 @@
+.socials > .container{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 728px) {
+    .socials > .container{
+        flex-direction: row;
+    }
+}
