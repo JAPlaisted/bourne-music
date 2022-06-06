@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "../CSS/Contact.css";
 
 class Contact extends Component {
+  CI= "npm run build"
     
   
     constructor(props) {
