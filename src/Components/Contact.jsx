@@ -128,7 +128,7 @@ class Contact extends Component {
                 : ''
               }
             </div>
-              <p className="text-center mb-0"><input type="submit" className="btn  btn-lg w-100 text-uppercase" value="Submit Now" /></p>
+              <p className="text-center mb-0"><input href="mailto: jonathan.plaisted@outlook.com" type="submit" className="btn  btn-lg w-100 text-uppercase" value="Submit Now" /></p>
           </form>
       
         </div>
