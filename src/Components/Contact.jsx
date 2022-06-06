@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import "../CSS/Contact.css";
 
-class Contact extends Component {
-  CI= "npm run build";
-    
+class Contact extends Component {    
   
     constructor(props) {
       super(props);
@@ -23,6 +21,7 @@ class Contact extends Component {
       this.handleSubmit = this.handleSubmit.bind(this);
       this.handleBlur   = this.handleBlur.bind(this);
     }
+
     
     isValidEmail(email) {
       return /^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/.test(email);
@@ -80,12 +79,14 @@ class Contact extends Component {
 
       e.preventDefault(); 
     }
+
+ 
     
     render() {
       
       const { name, email, message, nameError, emailError, emailError2, messageError, formValid } = this.state;
 
-      if(!formValid) {
+      if(!formValid) { console.log(name + email + message)
         
       return (
   <>
