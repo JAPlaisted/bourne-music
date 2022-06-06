@@ -11,7 +11,7 @@ const Music = () => {
             <div id="music" className='music'>
                 <div className="media-container">
                     <h2 className='mobile'>New Releases</h2>
-                    <img src={Clyde}/>
+                    <img src={Clyde} alt="Keith Clyde Album Cover"/>
                     <div className="text-container">
                         <h5>Keith Clyde</h5> 
                         <p>Latest Release ✘ Album</p>
