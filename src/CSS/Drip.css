@@ -26,8 +26,14 @@
     height: 70px;
     position: absolute;
     width: 100%;
-    top: -30px;
     background: var(--color-headings);
+    top: -15px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .drip-wrapper .drip-top {
+        top: -30px;
+      }
   }
 
   .drip-wrapper .drip {
