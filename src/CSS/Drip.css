@@ -27,7 +27,7 @@
     position: absolute;
     width: 100%;
     background: var(--color-headings);
-    top: -15px;
+
   }
 
   @media screen and (min-width: 768px) {
