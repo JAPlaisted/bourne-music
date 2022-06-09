@@ -1,5 +1,11 @@
 /* Navigation */
 
+.nav > .container {
+  background-color: var(--color-headings);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
 .nav > ul {
     align-items: center;
     display: flex;
@@ -7,14 +13,15 @@
     justify-content: space-evenly;
     padding: 0.25rem;
   }
-  
-  @media screen and (min-width: 768px) {
-    .nav {
-      padding: 1rem;
-    }
-  
+
+  .sticky {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
   }
   
+
+
   .nav__list {
     width: 100%;
     margin: 0;
@@ -50,6 +57,7 @@
     max-height: 100%;
     opacity: 1;
     }
+
 .nav__item {
       border: 0;
     }

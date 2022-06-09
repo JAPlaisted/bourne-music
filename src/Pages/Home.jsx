@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Drip from '../Components/drip';
 import Nav from "../Components/Nav";
 import HomeContent from "../Components/HomeContent";
 import Music from "../Components/Music";
@@ -15,6 +16,7 @@ class Home extends Component {
         <BkGrnd/>       
         <div className="content overlay">
         <Nav/>
+        <Drip/>
         <HomeContent/>
         <Music/>
         <Merch/>
