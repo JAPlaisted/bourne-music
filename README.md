@@ -1,36 +1,28 @@
-## Mike Bourne Music 
+Zoa Energy Landing Page
+ZOA is about healthy, positive energy that helps us all focus, be productive, and get stronger together. This Zoa landing page can be used to learn about and purchase some Zoa Energy! Built with React, JavaScript, and CSS.
 
-Mike Bourne is an Arkansas based rapper and US service member. This site acts as the main destination for Mike Bourne music, merchandise, and information. Built with React, JavaScript, and CSS.
+Visit Live Site
+https://admirable-lebkuchen-db46f7.netlify.app/
 
-## Visit Live Site
+Project Screenshots
+Zoa-1
 
-https://stately-tarsier-fd5ad6.netlify.app/
+Zoa-2
 
-## Project Screenshots
+Zoa-3
 
-![mb1](https://user-images.githubusercontent.com/55415399/177389984-f396a6a9-45de-424e-b20f-fd2af97f41b9.PNG)
-![mb2](https://user-images.githubusercontent.com/55415399/177389992-e1db1dab-5608-4da6-bf91-828c43c07dca.PNG)
-![mb3](https://user-images.githubusercontent.com/55415399/177389997-2b493780-8058-4826-a2b3-91612986524e.PNG)
-![mb4](https://user-images.githubusercontent.com/55415399/177390010-9b329dab-856c-4bfd-b059-516f3323c9ef.PNG)
-
-
-## Installation
-
+Installation
 npm install
 
-### To Run Test Suite
-
+To Run Test Suite
 npm test
 
-### To Start Server
-
+To Start Server
 npm start
 
-## Reflection
-
-This project was created for a client but provided me with many learning opportunities. This site utilizes email.js for routing email from an HTML form. The nav is designed using custom CSS to create the illusion of blood dripping from it. 
+Reflection
+This project was created for me to practice and learn how to implement a dark theme in a react application. My solution to achieve this was to create two CSS color palates, one labeled 'darkmode' and add or remove that class from the body of the page using a javascript button. The state is then stored in local storage on your machine so your preference will be remembered next time you visit. Local storage is a safe way to store information on a machine as it transmits no data back to the server.
 
 This project features the AOS (animate on scroll) library available here. https://michalsnik.github.io/aos/
 
 This project is built with React and React-Router.
-
