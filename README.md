@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+## Mike Bourne Music
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mike Bourne is an Arkansas based rapper and US service member. This site acts as the main destination for Mike Bourne music, merchandise, and information. Built with React, JavaScript, and CSS.
 
-## Available Scripts
+# Visit Live Site
+https://stately-tarsier-fd5ad6.netlify.app/
 
-In the project directory, you can run:
+# Project Screenshots
+![mb1](https://user-images.githubusercontent.com/55415399/177393343-6dece6a6-e5d5-446c-a4fc-45828eeaa9ef.PNG)
+![mb2](https://user-images.githubusercontent.com/55415399/177393357-fe46b5c3-5826-4027-953b-d303b259c405.PNG)
+![mb3](https://user-images.githubusercontent.com/55415399/177393363-97848af6-77b9-441f-8689-e45fd4be6d37.PNG)
+![mb4](https://user-images.githubusercontent.com/55415399/177393369-5ead9846-0f9e-4057-a662-03d35755aa56.PNG)
 
-### `npm start`
+# Installation
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# To Run Test Suite
+npm test
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# To Start Server
+npm start
 
-### `npm test`
+## Reflection
+This project was created for a client but provided me with many learning opportunities. This site utilizes email.js for routing email from an HTML form. The nav is designed using custom CSS to create the illusion of blood dripping from it.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project features the AOS (animate on scroll) library available here. https://michalsnik.github.io/aos/
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is built with React and React-Router.
