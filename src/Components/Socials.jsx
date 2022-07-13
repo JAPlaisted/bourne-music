@@ -8,7 +8,7 @@ function Socials() {
             <h2 className='mobile'>Follow Me</h2>
             <SVGSource/>
             <div className="container">
-            <h4 className='center'>MIKE BOURNE</h4>
+            <h4 className='center'>MIKE BOURN</h4>
             <div className="icon-container">
             <a href="https://www.youtube.com/channel/UCGIEVBnKyBSYsJJq-PAHpew">
                 <SVG id='youtube'/>

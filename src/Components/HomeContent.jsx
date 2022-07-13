@@ -6,7 +6,7 @@ class HomeContent extends Component {
     render() { 
         return (
             <div className="home-content">
-                <h1>MIKE BOURNE</h1>
+                <h1>MIKE BOURN</h1>
                 <h3>THE UNDERGROUND LIVES</h3>
                 <div className="icons"></div>
             </div>
