@@ -1,3 +1,4 @@
+@media screen and (min-width: 768px) {
 
 .color {
       animation: colorchange 50s; /* animation-name followed by duration in seconds*/
@@ -5,7 +6,6 @@
       -webkit-animation: colorchange 50s; /* Chrome and Safari */
 
 }
-
 
 .drip-wrapper {
     border: 0px solid var(--color-headings);
@@ -27,13 +27,7 @@
     position: absolute;
     width: 100%;
     background: var(--color-headings);
-    top: 30px;
-  }
-
-  @media screen and (min-width: 768px) {
-    .drip-wrapper .drip-top {
-        top: -30px;
-      }
+    top: -30px;
   }
 
   .drip-wrapper .drip {
@@ -213,4 +207,4 @@
       background: #090a0f;
     }
   }
-  
+}
